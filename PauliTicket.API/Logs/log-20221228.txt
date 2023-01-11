@@ -1,0 +1,108 @@
+2022-12-28 10:27:44.949 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 12:03:11.054 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 12:03:14.906 -03:00 [ERR] Connection id "0HMN8SII8A85I", Request id "0HMN8SII8A85I:00000007": An unhandled exception was thrown by the application.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Event" for actions - PauliTicket.API.Controllers.EventController.GetAllEvents (PauliTicket.API),PauliTicket.API.Controllers.EventController.GetEventsForSpecificCategories (PauliTicket.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-12-28 12:03:24.237 -03:00 [ERR] Connection id "0HMN8SII8A85J", Request id "0HMN8SII8A85J:00000007": An unhandled exception was thrown by the application.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Event" for actions - PauliTicket.API.Controllers.EventController.GetAllEvents (PauliTicket.API),PauliTicket.API.Controllers.EventController.GetEventsForSpecificCategories (PauliTicket.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-12-28 12:04:10.894 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 12:05:16.975 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 12:07:12.077 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 12:07:15.759 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 12:07:48.496 -03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'PauliTicket.Persistence.PauliTicketDbContext'.
+System.InvalidOperationException: Invalid attempt to call ReadAsync when reader is closed.
+   at Microsoft.Data.Common.ADP.ExceptionWithStackTrace(Exception e)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: Invalid attempt to call ReadAsync when reader is closed.
+   at Microsoft.Data.Common.ADP.ExceptionWithStackTrace(Exception e)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2022-12-28 12:08:04.215 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 12:11:04.693 -03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'PauliTicket.Persistence.PauliTicketDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2022-12-28 12:14:17.811 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 12:14:59.007 -03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'PauliTicket.Persistence.PauliTicketDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2022-12-28 12:21:53.070 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 12:31:18.138 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 13:01:07.348 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 13:02:44.018 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 13:03:28.664 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 13:06:51.941 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 13:08:07.716 -03:00 [INF] PauliTicket API Starting...
+2022-12-28 16:24:12.702 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:24:12.722 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:24:15.569 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:24:15.573 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:26:29.497 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:26:29.502 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:26:49.890 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:26:49.893 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:27:15.088 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:27:15.092 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:32:20.265 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:32:20.266 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:32:20.267 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:32:20.267 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:32:20.270 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:32:20.279 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:32:20.300 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:32:20.326 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:32:48.203 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:32:48.204 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:34:34.411 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:34:34.416 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:35:21.906 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:35:21.907 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:36:42.246 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:36:42.250 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:37:20.042 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:37:20.043 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:37:59.771 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:37:59.773 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:38:37.767 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:38:37.769 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:38:59.811 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:38:59.812 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:39:25.733 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:39:25.734 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:39:41.362 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:39:41.362 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:43:13.708 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:43:13.709 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:43:43.524 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:43:43.524 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:44:21.900 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:44:21.901 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:44:33.739 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:44:33.741 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:45:05.219 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:45:05.223 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:45:17.666 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:45:17.669 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:45:45.051 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:45:45.053 -03:00 [WRN] User failed to provide the correct password.
+2022-12-28 16:45:52.098 -03:00 [WRN] Invalid password for user.
+2022-12-28 16:45:52.098 -03:00 [WRN] User failed to provide the correct password.

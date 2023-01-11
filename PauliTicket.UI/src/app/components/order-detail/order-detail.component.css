@@ -1,0 +1,29 @@
+.card {
+  border: 6px solid rgba(232, 94, 225, 0.2);
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.check {
+  transform: scale(3);
+  margin-top: 2%;
+  margin-bottom: 5%;
+  color: green;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .card {
+    width: 60%;
+  }
+}

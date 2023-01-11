@@ -1,0 +1,578 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.API.IntegrationTests\\PauliTicket.API.IntegrationTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.API.IntegrationTests\\PauliTicket.API.IntegrationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.API.IntegrationTests\\PauliTicket.API.IntegrationTests.csproj",
+        "projectName": "PauliTicket.API.IntegrationTests",
+        "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.API.IntegrationTests\\PauliTicket.API.IntegrationTests.csproj",
+        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.API.IntegrationTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.API\\PauliTicket.API.csproj": {
+                "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.API\\PauliTicket.API.csproj"
+              },
+              "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Persistence\\PauliTicket.Persistence.csproj": {
+                "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Persistence\\PauliTicket.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.API\\PauliTicket.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.API\\PauliTicket.API.csproj",
+        "projectName": "PauliTicket.API",
+        "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.API\\PauliTicket.API.csproj",
+        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Application\\PauliTicket.Application.csproj": {
+                "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Application\\PauliTicket.Application.csproj"
+              },
+              "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Identity\\PauliTicket.Identity.csproj": {
+                "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Identity\\PauliTicket.Identity.csproj"
+              },
+              "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Infrastructure\\PauliTicket.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Infrastructure\\PauliTicket.Infrastructure.csproj"
+              },
+              "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Persistence\\PauliTicket.Persistence.csproj": {
+                "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Persistence\\PauliTicket.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Application\\PauliTicket.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Application\\PauliTicket.Application.csproj",
+        "projectName": "PauliTicket.Application",
+        "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Application\\PauliTicket.Application.csproj",
+        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Domain\\PauliTicket.Domain.csproj": {
+                "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Domain\\PauliTicket.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Domain\\PauliTicket.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Domain\\PauliTicket.Domain.csproj",
+        "projectName": "PauliTicket.Domain",
+        "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Domain\\PauliTicket.Domain.csproj",
+        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Identity\\PauliTicket.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Identity\\PauliTicket.Identity.csproj",
+        "projectName": "PauliTicket.Identity",
+        "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Identity\\PauliTicket.Identity.csproj",
+        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Application\\PauliTicket.Application.csproj": {
+                "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Application\\PauliTicket.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Infrastructure\\PauliTicket.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Infrastructure\\PauliTicket.Infrastructure.csproj",
+        "projectName": "PauliTicket.Infrastructure",
+        "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Infrastructure\\PauliTicket.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Application\\PauliTicket.Application.csproj": {
+                "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Application\\PauliTicket.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[12.2.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.4.3, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.28.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Persistence\\PauliTicket.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Persistence\\PauliTicket.Persistence.csproj",
+        "projectName": "PauliTicket.Persistence",
+        "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Persistence\\PauliTicket.Persistence.csproj",
+        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Application\\PauliTicket.Application.csproj": {
+                "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Application\\PauliTicket.Application.csproj"
+              },
+              "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Domain\\PauliTicket.Domain.csproj": {
+                "projectPath": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Domain\\PauliTicket.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

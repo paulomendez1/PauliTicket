@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PauliTicket.API</name>
+    </assembly>
+    <members>
+        <member name="M:PauliTicket.API.Controllers.EventController.GetAllEvents">
+            <summary>
+            Get all events
+            </summary>
+            <response code="200">Returns a list of events</response>
+        </member>
+        <member name="M:PauliTicket.API.Controllers.EventController.GetEventsForSpecificCategories(System.String[])">
+            <summary>
+            Get events for specific categories provided
+            </summary>
+            <param name="categories">The list of categories provided to get events</param>
+            <response code="200">Returns a list of event taking in consideration the categories provided</response>
+        </member>
+        <member name="M:PauliTicket.API.Controllers.EventController.GetEventById(System.Guid)">
+            <summary>
+            Get an specific event
+            </summary>
+            <param name="id">The id of the event to obtain</param>
+            <response code="200">Returns an specific event</response>
+            <response code="400">Returns a 404 code since no event was found</response>
+        </member>
+        <member name="M:PauliTicket.API.Controllers.EventController.Create(PauliTicket.Application.Features.Events.Commands.CreateEvent.CreateEventCommand)">
+            <summary>
+            Create a event
+            </summary>
+            <param name="createEventCommand">The event provided to create it</param>
+            <response code="200">Returns the id of the event created</response>
+        </member>
+        <member name="M:PauliTicket.API.Controllers.EventController.Update(PauliTicket.Application.Features.Events.Commands.UpdateEvent.UpdateEventCommand)">
+            <summary>
+            Update a specific event
+            </summary>
+            <param name="updateEventCommand">The event provided to update</param>
+            <response code="204">Returns nothing when event updated</response>
+        </member>
+        <member name="M:PauliTicket.API.Controllers.EventController.Delete(System.Guid)">
+            <summary>
+            Delete an specific event
+            </summary>
+            <param name="id">The id of the event to delete</param>
+            <response code="204">Returns nothing when event deleted</response>
+        </member>
+        <member name="M:PauliTicket.API.Controllers.EventController.ExportEvents">
+            <summary>
+            Export to csv all events
+            </summary>
+            <response code="200">Returns a csv file of events</response>
+        </member>
+    </members>
+</doc>

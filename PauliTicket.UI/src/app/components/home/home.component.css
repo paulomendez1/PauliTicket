@@ -1,0 +1,62 @@
+.container {
+  border-left: 4px;
+  border-right: 4px;
+  padding: 1rem 2rem;
+  overflow: auto;
+}
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  overflow-y: hidden;
+}
+
+.card {
+  height: 60vh;
+  margin-bottom: 2%;
+}
+
+.card:hover {
+  transform: translate3d(0, 0, 0);
+  transition: background 0.4s cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 8px 8px 8px rgba(232, 94, 225, 0.2),
+    0 8px 8px 0 rgba(0, 0, 0, 0.14), 0 8px 8px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.header {
+  display: flex;
+  gap: 0 40px;
+  flex: 1 1 auto;
+  margin-top: 2%;
+}
+
+.space {
+  flex: 1 1 auto;
+}
+
+::ng-deep .mdc-text-field--filled {
+  background-color: white !important;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    border-left: 4px solid #f9f9f9;
+    border-right: 4px solid #f9f9f9;
+    padding: 1rem 2rem;
+  }
+
+  .events {
+    display: flex;
+    gap: 0 40px;
+    flex: 1 1 auto;
+    align-items: center;
+  }
+
+  .card {
+    margin: 0;
+    flex: 1 1 50%;
+    max-width: 30%;
+    margin-top: 2%;
+  }
+}

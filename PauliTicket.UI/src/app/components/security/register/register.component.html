@@ -1,0 +1,7 @@
+<div class="container">
+  <app-display-errors [errors]="errors"></app-display-errors>
+  <app-auth-form
+    [action]="'Register'"
+    (onSubmit)="register($event)"
+  ></app-auth-form>
+</div>

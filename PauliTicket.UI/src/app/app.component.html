@@ -1,0 +1,35 @@
+<mat-drawer-container class="container" [hasBackdrop]="true">
+  <mat-drawer #drawer [mode]="'over'">
+    <mat-toolbar color="primary"><mat-icon>nfc</mat-icon> PauliTicket</mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item href="/">Events </a>
+      <a mat-list-item href="#">Hello, {{ authService.getFieldFromJWT("sub") }}
+      </a>
+      <a mat-raised-button color="accent" *ngIf="authService.isAuthenticated()" (click)="authService.logout()">Log
+        Out</a>
+      <a mat-raised-button color="accent" routerLink="/register" *ngIf="!authService.isAuthenticated()">Sign Up</a>
+      <a mat-raised-button color="accent" routerLink="/login" *ngIf="!authService.isAuthenticated()">Log In</a>
+    </mat-nav-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <mat-toolbar color="primary" [ngClass]="{'mat-elevation-z5' : true, 'sticky' : isSticky}">
+      <button mat-button class="sidenav-toggle" (click)="drawer.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <a class="logo" href="#"><span><mat-icon>nfc</mat-icon> PauliTicket</span></a>
+
+      <div class="space"></div>
+
+      <div class="desktop-menu">
+        <a mat-button routerLink="/">Events</a>
+        <a mat-button *ngIf="authService.isAuthenticated()" (click)="moveToProfile()">
+          Hello, {{ authService.getFieldFromJWT("sub") }}</a>
+        <a mat-raised-button color="accent" *ngIf="authService.isAuthenticated()" (click)="authService.logout()">Log
+          Out</a>
+        <a mat-raised-button color="accent" routerLink="/register" *ngIf="!authService.isAuthenticated()">Sign Up</a>
+        <a mat-raised-button color="accent" routerLink="/login" *ngIf="!authService.isAuthenticated()">Log In</a>
+      </div>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "I/7XN40sXCMe0Rw4fLhB7/fYMl3nD2/6MXKqYm+e7sc=",
+  "Source": "PauliTicket.API",
+  "BasePath": "_content/PauliTicket.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

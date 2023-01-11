@@ -1,0 +1,45 @@
+<h3>{{ action }}</h3>
+
+<form (submit)="onSubmit.emit(form.value)" [formGroup]="form">
+  <mat-form-field appearance="outline">
+    <mat-label>Email</mat-label>
+    <input formControlName="email" matInput />
+    <mat-error>{{ getEmailErrorMsg() }}</mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="outline" *ngIf="action == 'Register'">
+    <mat-label>Username</mat-label>
+    <input formControlName="username" matInput />
+    <mat-error>The field Username is required</mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="outline" *ngIf="action == 'Register'">
+    <mat-label>First Name</mat-label>
+    <input formControlName="firstName" matInput />
+    <mat-error>The field first name is required</mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="outline" *ngIf="action == 'Register'">
+    <mat-label>Last Name</mat-label>
+    <input formControlName="lastName" matInput />
+    <mat-error>The field last name is required</mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Password</mat-label>
+    <input type="password" formControlName="password" matInput />
+    <mat-error>The field password is required</mat-error>
+  </mat-form-field>
+  <div>
+    <button mat-flat-button color="primary" [disabled]="form.invalid">
+      {{ action }}
+    </button>
+    <a mat-stroked-button routerLink="/"> Cancel </a>
+    <br />
+    <br />
+    <a *ngIf="action == 'Log In'" routerLink="/forgotpw"> Forgot Password? </a>
+    <br />
+    <a *ngIf="action == 'Log In'" routerLink="/register">
+      Does not have an account yet? Register</a
+    >
+    <a *ngIf="action == 'Register'" routerLink="/login">
+      Already have an account? Log In</a
+    >
+  </div>
+</form>

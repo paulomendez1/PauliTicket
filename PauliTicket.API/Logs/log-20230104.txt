@@ -1,0 +1,5 @@
+2023-01-04 10:31:09.012 -03:00 [INF] PauliTicket API Starting...
+2023-01-04 13:59:43.591 -03:00 [WRN] Invalid password for user.
+2023-01-04 13:59:43.623 -03:00 [WRN] User failed to provide the correct password.
+2023-01-04 15:51:50.662 -03:00 [WRN] Invalid password for user.
+2023-01-04 15:51:50.677 -03:00 [WRN] User failed to provide the correct password.

@@ -1,0 +1,21 @@
+<h1 mat-dialog-title>Buying a ticket for {{data.name}}</h1>
+<div mat-dialog-content>
+    <p>Price</p>
+    <h2>{{data.price}}</h2>
+    <mat-form-field appearance="fill">
+        <mat-label>Enter your credit card number</mat-label>
+        <input matInput [(ngModel)]="data.creditNumber">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Enter your credit card code</mat-label>
+        <input matInput [(ngModel)]="data.creditCode">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Enter the expiration date (format MM/YYYY)</mat-label>
+        <input matInput [(ngModel)]="data.creditDate">
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Cancel</button>
+    <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Ok</button>
+</div>

@@ -1,0 +1,14 @@
+<div class="container" *ngIf="event && order">
+    <mat-card class="card">
+        <h1>Your order has been processed successfully</h1>
+        <mat-icon class="check">check_circle</mat-icon>
+        <h2>A ticket for {{event.name}}</h2>
+        <div class="ImageContainer">
+            <img class="Img" src="{{event.imageUrl}}" alt="Incredible scones" />
+        </div>
+        <h2><mat-icon>monetization_on</mat-icon>{{order.orderTotal}} </h2>
+
+        <h2><mat-icon>date_range</mat-icon>{{order.orderPlaced | date : 'short'}}</h2>
+    </mat-card>
+
+</div>

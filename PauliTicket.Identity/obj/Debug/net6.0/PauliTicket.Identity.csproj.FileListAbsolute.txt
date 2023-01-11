@@ -1,0 +1,17 @@
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\bin\Debug\net6.0\PauliTicket.Identity.deps.json
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\bin\Debug\net6.0\PauliTicket.Identity.dll
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\bin\Debug\net6.0\PauliTicket.Identity.pdb
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\bin\Debug\net6.0\PauliTicket.Application.dll
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\bin\Debug\net6.0\PauliTicket.Domain.dll
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\bin\Debug\net6.0\PauliTicket.Application.pdb
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\bin\Debug\net6.0\PauliTicket.Domain.pdb
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\obj\Debug\net6.0\PauliTicket.Identity.csproj.AssemblyReference.cache
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\obj\Debug\net6.0\PauliTicket.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\obj\Debug\net6.0\PauliTicket.Identity.AssemblyInfoInputs.cache
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\obj\Debug\net6.0\PauliTicket.Identity.AssemblyInfo.cs
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\obj\Debug\net6.0\PauliTicket.Identity.csproj.CoreCompileInputs.cache
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\obj\Debug\net6.0\PauliTicket.Identity.csproj.CopyComplete
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\obj\Debug\net6.0\PauliTicket.Identity.dll
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\obj\Debug\net6.0\refint\PauliTicket.Identity.dll
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\obj\Debug\net6.0\PauliTicket.Identity.pdb
+C:\Users\paulo\source\repos\PauliTicket\PauliTicket.Identity\obj\Debug\net6.0\ref\PauliTicket.Identity.dll

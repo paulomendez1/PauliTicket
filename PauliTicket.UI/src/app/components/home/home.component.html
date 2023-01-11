@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="header">
+    <mat-slide-toggle color="primary">Include passed events</mat-slide-toggle>
+    <form [formGroup]="categoryForm" fxFlex fxLayout="column" autocomplete="off">
+      <mat-form-field appearance="fill" style="margin-top: -15px">
+        <mat-label>Categories</mat-label>
+        <mat-select formControlName="categoryFormControl" multiple>
+          <mat-option #allSelected (click)="toggleAllSelection()" [value]="0">All</mat-option>
+          <mat-option *ngFor="let category of categories" [value]="category.name" (click)="togglePerOne()">{{
+            category.name }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </form>
+  </div>
+  <div class="events">
+    <div *ngIf="!events">
+      <mat-spinner></mat-spinner>
+    </div>
+    <mat-card class="card" *ngFor="let event of events">
+      <mat-card-header>
+        <mat-card-title>{{ event.name }}</mat-card-title>
+        <mat-card-subtitle style="margin-bottom: 2%">
+          {{ event.date | date : "short" }}
+        </mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="{{ event.imageUrl }}" alt="Event photo" style="max-width: 100%; max-height: 50%" />
+      <mat-card-content style="
+        min-height: 20%;
+        margin-top: 2%;
+        text-align: center;
+        font-size: 17px;
+      ">
+        <p>{{ event.description }}</p>
+      </mat-card-content>
+      <mat-card-actions style="align-self: center">
+        <button mat-button (click)="navigateToOrder(event.eventId)">
+          ORDER <mat-icon>shopping_cart</mat-icon>
+        </button>
+      </mat-card-actions>
+      <mat-card-footer *ngIf="!event">
+        <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+      </mat-card-footer>
+    </mat-card>
+  </div>
+</div>

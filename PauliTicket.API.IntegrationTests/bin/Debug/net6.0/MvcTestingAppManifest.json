@@ -1,0 +1,8 @@
+{
+  "PauliTicket.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.API",
+  "PauliTicket.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Application",
+  "PauliTicket.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Domain",
+  "PauliTicket.Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Identity",
+  "PauliTicket.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Infrastructure",
+  "PauliTicket.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\paulo\\source\\repos\\PauliTicket\\PauliTicket.Persistence"
+}

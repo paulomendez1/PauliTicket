@@ -1,0 +1,27 @@
+2023-01-10 09:49:41.674 -03:00 [INF] PauliTicket API Starting...
+2023-01-10 09:56:18.666 -03:00 [INF] PauliTicket API Starting...
+2023-01-10 10:23:01.543 -03:00 [ERR] Order (387bf055-21f7-4fad-95b0-7c9698fe1392) is not found
+2023-01-10 10:23:02.463 -03:00 [ERR] Order (387bf055-21f7-4fad-95b0-7c9698fe1392) is not found
+2023-01-10 10:23:02.756 -03:00 [ERR] Order (387bf055-21f7-4fad-95b0-7c9698fe1392) is not found
+2023-01-10 10:23:03.076 -03:00 [ERR] Order (387bf055-21f7-4fad-95b0-7c9698fe1392) is not found
+2023-01-10 10:31:55.791 -03:00 [WRN] Invalid password for user.
+2023-01-10 10:31:55.797 -03:00 [WRN] User failed to provide the correct password.
+2023-01-10 10:32:02.767 -03:00 [WRN] Invalid password for user.
+2023-01-10 10:32:02.773 -03:00 [WRN] User failed to provide the correct password.
+2023-01-10 10:32:31.894 -03:00 [WRN] Invalid password for user.
+2023-01-10 10:32:31.899 -03:00 [WRN] User failed to provide the correct password.
+2023-01-10 11:08:36.007 -03:00 [INF] PauliTicket API Starting...
+2023-01-10 11:16:34.834 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-01-10 11:16:34.842 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-01-10 11:26:52.567 -03:00 [INF] PauliTicket API Starting...
+2023-01-10 11:27:58.323 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-01-10 11:27:58.334 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-01-10 11:29:42.028 -03:00 [INF] PauliTicket API Starting...
+2023-01-10 11:30:07.352 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-01-10 11:30:07.368 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-01-10 11:47:36.081 -03:00 [INF] PauliTicket API Starting...
+2023-01-10 11:47:44.156 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-01-10 11:47:44.163 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-01-10 15:48:08.553 -03:00 [INF] PauliTicket API Starting...
+2023-01-10 15:49:06.214 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-01-10 15:49:06.222 -03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.

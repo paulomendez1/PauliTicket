@@ -1,0 +1,21 @@
+<div *ngIf="event" class="container">
+  <div class="IntroWrapper">
+    <h2 class="IntroText">
+      {{event.name}}
+      <h3>{{event.artist}}</h3>
+      <h4>{{event.date | date : 'short'}} | {{event.category.name}}</h4>
+    </h2>
+    <div class="MoneyShot">
+      <img class="MoneyShotImg" src="{{event.imageUrl}}" alt="Incredible scones" />
+    </div>
+  </div>
+  <div class="Ingredients">
+    <h3 class="SubHeader">BUY A TICKET!</h3>
+    <h4> Price: ${{event.price}}</h4>
+    <a mat-raised-button color="accent" (click)="openDialog()">ORDER NOW!</a>
+  </div>
+  <div class="HowToMake">
+    <h3 class="SubHeader">Description</h3>
+    <blockquote>{{event.description}}</blockquote>
+  </div>
+</div>

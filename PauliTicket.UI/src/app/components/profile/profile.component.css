@@ -1,0 +1,40 @@
+.card {
+  border: 6px solid rgba(232, 94, 225, 0.2);
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.check {
+  transform: scale(3);
+  margin-top: 2%;
+  margin-bottom: 5%;
+  color: green;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 25%;
+}
